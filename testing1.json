@@ -5,15 +5,17 @@
                 "controlType": "phone",
                 "labelName": {
                     "en": "Username",
-                    "km": "ឈ្មោះ​អ្នកប្រើប្រាស់"
+                    "km": "ឈ្មោះ​អ្នកប្រើប្រាស់",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "placeholder": {
                     "eng": "Enter your username",
-                    "khm": "សូមបញ្ចូលឈ្មោះអ្នកប្រើប្រាស់"
+                    "khm": "សូមបញ្ចូលឈ្មោះអ្នកប្រើប្រាស់",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "validators": [],
-                "required": true,
-                "disabled": false,
+                "required": false,
+                "disabled": true,
                 "prefix": [
                     "+91"
                 ],
@@ -63,15 +65,18 @@
                 "controlType": "password",
                 "labelName": {
                     "eng": "Password",
-                    "khm": "ពាក្យសម្ងាត់"
+                    "khm": "ពាក្យសម្ងាត់",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "placeholder": {
                     "eng": "Enter your password",
-                    "khm": "សូមបញ្ចូលពាក្យសម្ងាត់"
+                    "khm": "សូមបញ្ចូលពាក្យសម្ងាត់",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "info": {
                     "eng": "Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character.",
-                    "khm": "ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ ៨ តួអក្សរ មានតួអក្សរធំមួយ តួអក្សរតូចមួយ លេខមួយ និងតួអក្សរពិសេសមួយ។"
+                    "khm": "ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ ៨ តួអក្សរ មានតួអក្សរធំមួយ តួអក្សរតូចមួយ លេខមួយ និងតួអក្សរពិសេសមួយ។",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "alignmentGroup": "groupC",
                 "required": true
@@ -81,15 +86,18 @@
                 "controlType": "photo",
                 "labelName": {
                     "eng": "Capture Photo",
-                    "khm": "ថតរូប"
+                    "khm": "ថតរូប",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "placeholder": {
                     "eng": "Click to capture photo",
-                    "khm": "ចុចដើម្បីថតរូប"
+                    "khm": "ចុចដើម្បីថតរូប",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "info": {
                     "eng": "Please click here to capture your photo using your device's camera.",
-                    "khm": "សូមចុចទីនេះដើម្បីថតរូបរបស់អ្នកដោយប្រើកាមេរ៉ារបស់ឧបករណ៍របស់អ្នក។"
+                    "khm": "សូមចុចទីនេះដើម្បីថតរូបរបស់អ្នកដោយប្រើកាមេរ៉ារបស់ឧបករណ៍របស់អ្នក។",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "acceptedFileTypes": "image/jpeg , image/jpg , image/png , image/webp",
                 "required": true,
@@ -100,11 +108,13 @@
                 "controlType": "textbox",
                 "labelName": {
                     "eng": "Preferred Lang",
-                    "khm": "ភាសាដែលចូលចិត្ត"
+                    "khm": "ភាសាដែលចូលចិត្ត",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "info": {
                     "eng": "Preferred Lang",
-                    "khm": "ភាសាដែលចូលចិត្ត"
+                    "khm": "ភាសាដែលចូលចិត្ត",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "required": false,
                 "disabled": true
@@ -114,52 +124,41 @@
                 "controlType": "date",
                 "labelName": {
                     "eng": "Date of Birth",
-                    "khm": "ថ្ងៃខែឆ្នាំកំណើត"
+                    "khm": "ថ្ងៃខែឆ្នាំកំណើត",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
-                "maxAge": 0,
+                "minAge": 5,
+                "maxAge": 10,
                 "alignmentGroup": "groupE",
                 "required": true,
-                "format": "yyyy/MM/dd"
+                "format": "dd/MM/yyyy"
             },
             {
                 "id": "details",
                 "controlType": "textarea",
                 "labelName": {
-                    "eng": "Details",
-                    "khm": "ព័ត៌មានលម្អិត"
+                    "eng": "Enter the full Details in proper way that should be valid and correct format and it should be an applicable to review and all of the letters should be in proper way",
+                    "khm": "ព័ត៌មានលម្អិត",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "placeholder": {
                     "eng": "Enter Details",
-                    "khm": "បញ្ចូលព័ត៌មានលម្អិត"
+                    "khm": "បញ្ចូលព័ត៌មានលម្អិត",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
-                "validators": [
-                    {
-                        "regex": "^\\d{9,10}$",
-                        "error": {
-                            "eng": "Username must be a valid phone number with 9 or 10 digits",
-                            "khm": "ឈ្មោះ​អ្នកប្រើប្រាស់ត្រូវតែជាលេខទូរស័ព្ទដែលមានលេខ 9 ឬ 10 តួ"
-                        }
-                    },
-                    {
-                        "regex": "^(?!0).*$",
-                        "error": {
-                            "eng": "Mobile number should not start with zero",
-                            "khm": "លេខទូរស័ព្ទមិនគួរចាប់ផ្តើមជាមួយលេខសូន្យ"
-                        }
-                    }
-                ],
                 "alignmentGroup": "groupF",
-                "required": false,
+                "required": true,
                 "rows": 4
             },
             {
                 "id": "gender",
-                "type": "simpleType",
+                "type": "stringType",
                 "subType": "genderVal",
                 "controlType": "radio",
                 "labelName": {
-                    "eng": "Gender",
-                    "khm": "ភេទ"
+                    "eng": "Gender of the country which was given by government and that should applicable for all the valid details and that should follow documents",
+                    "khm": "យេនឌ័រនៃប្រទេសដែលត្រូវបានផ្តល់ឱ្យដោយរដ្ឋាភិបាល និងដែលគួរអនុវត្តសម្រាប់ព័ត៌មានលម្អិតដែលមានសុពលភាពទាំងអស់ ហើយដែលគួរអនុវត្តតាមឯកសារ",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "alignmentGroup": "groupG",
                 "required": true
@@ -170,7 +169,8 @@
                 "controlType": "fileupload",
                 "labelName": {
                     "eng": "Passport",
-                    "khm": "លិខិតឆ្លងដែន"
+                    "khm": "លិខិតឆ្លងដែន",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "acceptedFileTypes": [
                     "application/pdf",
@@ -186,11 +186,13 @@
                 "controlType": "fileupload",
                 "labelName": {
                     "eng": "Photo",
-                    "khm": "រូបថត"
+                    "khm": "រូបថត",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "placeholder": {
                     "eng": "Select an Option",
-                    "khm": "លិខិតឆ្លងដែន"
+                    "khm": "លិខិតឆ្លងដែន",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "required": false,
                 "acceptedFileTypes": [
@@ -198,7 +200,6 @@
                     "image/jpg",
                     "image/png"
                 ],
-                "maxFileSizeMB": 8,
                 "alignmentGroup": "groupI"
             },
             {
@@ -206,45 +207,54 @@
                 "controlType": "checkbox",
                 "labelName": {
                     "eng": "I agree to <b><a href=\"#\">Terms & Conditions</a></b> and <b><a href=\"#\">Privacy Policy</a></b>.",
-                    "khm": "ខ្ញុំយល់ព្រមតាម<b><a href=\"#\">លក្ខខណ្ឌ</a></b> និង<b><a href=\"#\">គោលការណ៍ឯកជនភាព</a></b>។"
+                    "khm": "ខ្ញុំយល់ព្រមតាម<b><a href=\"#\">លក្ខខណ្ឌ</a></b> និង<b><a href=\"#\">គោលការណ៍ឯកជនភាព</a></b>។",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "required": true
             }
+           
         ],
         "allowedValues": {
             "preferredLang": "khm",
             "genderVal": {
                 "male": {
                     "eng": "Male",
-                    "khm": "ប្រុស"
+                    "khm": "ប្រុស",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "female": {
                     "eng": "Female",
-                    "khm": "ស្រី"
+                    "khm": "ស្រី",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "other": {
                     "eng": "Other",
-                    "khm": "ផ្សេងទៀត"
+                    "khm": "ផ្សេងទៀត",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 }
             },
             "passportVal": {
                 "aadhar": {
                     "en": "Aadhar ID",
-                    "km": "អាយឌីអាហ្កាដារ"
+                    "km": "អាយឌីអាហ្កាដារ",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "rental": {
                     "en": "Rental",
-                    "km": "ជួល"
+                    "km": "ជួល",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 }
             },
             "photoVal": {
                 "selfie": {
                     "en": "Selfie",
-                    "km": "រូបថត"
+                    "km": "រូបថត",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "profile": {
                     "en": "Profile",
-                    "km": "រូបថត"
+                    "km": "រូបថត",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 }
             }
         },
@@ -252,69 +262,84 @@
             "errors": {
                 "required": {
                     "en": "This field is required",
-                    "km": "វាលនេះត្រូវការទទួលបាន"
+                    "km": "វាលនេះត្រូវការទទួលបាន",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "capsLock": {
                     "en": "Caps Lock is on",
-                    "km": "Caps Lock កំពុងបើក"
+                    "km": "Caps Lock កំពុងបើក",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 }
             },
             "labels": {
                 "password_confirm": {
                     "en": "Confirm Password",
-                    "km": "បញ្ជាក់ពាក្យសម្ងាត់"
+                    "km": "បញ្ជាក់ពាក្យសម្ងាត់",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "capturePhoto": {
                     "en": "Capture Photo",
-                    "km": "ថតរូប"
+                    "km": "ថតរូប",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "clickToUpload": {
                     "en": "Click to upload",
-                    "km": "ចុចដើម្បីផ្ទុកឡើង"
+                    "km": "ចុចដើម្បីផ្ទុកឡើង",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "docType": {
                     "en": "Document Type",
-                    "km": "ប្រភេទឯកសារ"
+                    "km": "ប្រភេទឯកសារ",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "docRef": {
                     "en": "Document Reference ID",
-                    "km": "លេខយោងឯកសារ"
+                    "km": "លេខយោងឯកសារ",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "proofOfDoc": {
                     "en": "Proof Of Document",
-                    "km": "ភស្តុតាងឯកសារ"
+                    "km": "ភស្តុតាងឯកសារ",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 }
             },
             "placeholders": {
                 "password_confirm": {
                     "en": "Enter your confirm password",
-                    "km": "បញ្ចូលពាក្យសម្ងាត់ដែលបានបញ្ជាក់"
+                    "km": "បញ្ចូលពាក្យសម្ងាត់ដែលបានបញ្ជាក់",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "docType": {
                     "en": "Select an option",
-                    "km": "ជ្រើសជម្រើសមួយ"
+                    "km": "ជ្រើសជម្រើសមួយ",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "docRef": {
                     "en": "Enter Reference ID here",
-                    "km": "បញ្ចូលលេខយោងនៅទីនេះ"
+                    "km": "បញ្ចូលលេខយោងនៅទីនេះ",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 },
                 "proofOfDoc": {
                     "en": "Click to upload or drag and drop",
-                    "km": "ចុចដើម្បីផ្ទុកឡើង ឬទាញបោះ"
+                    "km": "ចុចដើម្បីផ្ទុកឡើង ឬទាញបោះ",
+                    "hin": "यह फ़ील्ड आवश्यक है"
                 }
             }
         },
         "language": {
             "mandatory": [
                 "khm",
-                "eng"
+                "eng",
+                "hin"
             ],
             "optional": [
-                "eng"
+                "eng",
+                "hin"
             ],
             "langCodeMap": {
                 "khm": "km",
-                "eng": "en"
+                "eng": "en",
+                "hin": "hi"
             }
         },
     "errors": []
