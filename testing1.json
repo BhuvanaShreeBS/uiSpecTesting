@@ -79,6 +79,17 @@
          "required":true
       },
       {
+        "id": "gender",
+        "subType": "genderVal",
+        "controlType": "radio",
+        "labelName": {
+          "eng": "Gender",
+          "khm": "ភេទ"
+        },
+        "alignmentGroup": "groupG",
+        "required": true
+      },
+      {
          "id":"consent",
          "controlType":"checkbox",
          "labelName":{
@@ -103,6 +114,14 @@
             "eng":"Other",
             "khm":"ផ្សេងទៀត"
          }
+         "abc":{
+            "eng":"abc",
+            "khm":"ប្រុស"
+         },
+         "abcd":{
+            "eng":"abcd",
+            "khm":"ស្រី"
+         },
       },
       "passportVal":{
          "aadhar":{
