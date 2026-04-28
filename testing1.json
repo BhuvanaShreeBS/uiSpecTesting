@@ -13,7 +13,7 @@
                 },
                 "validators": [],
                 "required": false,
-                "disabled": false,
+                "disabled": true,
                 "prefix": [
                     "+91"
                 ],
@@ -116,7 +116,7 @@
                     "eng": "Date of Birth",
                     "khm": "ថ្ងៃខែឆ្នាំកំណើត"
                 },
-                "minAge": 0,
+                "maxAge": 3,
                 "alignmentGroup": "groupE",
                 "required": true
             },
@@ -131,22 +131,6 @@
                     "eng": "Enter Details",
                     "khm": "បញ្ចូលព័ត៌មានលម្អិត"
                 },
-                "validators": [
-                    {
-                        "regex": "^\\d{9,10}$",
-                        "error": {
-                            "eng": "Username must be a valid phone number with 9 or 10 digits",
-                            "khm": "ឈ្មោះ​អ្នកប្រើប្រាស់ត្រូវតែជាលេខទូរស័ព្ទដែលមានលេខ 9 ឬ 10 តួ"
-                        }
-                    },
-                    {
-                        "regex": "^(?!0).*$",
-                        "error": {
-                            "eng": "Mobile number should not start with zero",
-                            "khm": "លេខទូរស័ព្ទមិនគួរចាប់ផ្តើមជាមួយលេខសូន្យ"
-                        }
-                    }
-                ],
                 "alignmentGroup": "groupF",
                 "required": false,
                 "rows": "abc"
