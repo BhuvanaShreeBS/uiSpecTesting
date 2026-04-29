@@ -91,6 +91,18 @@
         "alignmentGroup": "groupD"
       },
       {
+       "id": "country",
+       "controlType": "dropdown",
+        "labelName": {
+          "eng": "country"
+        },
+        "placeholder": {
+          "eng": "Select your country"
+        },
+        "required": true,
+        "alignmentGroup": "groupD"
+      },
+      {
         "id": "gender",
         "subType": "genderVal",
         "controlType": "radio",
@@ -168,6 +180,20 @@
         "B.Tech":{
           "en":"Bachelor of Engineering"
         }
+      },
+      "country":{
+         "India":{
+            "en":"India"
+         },
+         "Nepal":{
+            "en":"Nepal"
+         },
+        "Australia":{
+          "en":"Australia"
+        },
+         "New Zealand":{
+            "en":"New Zealand"
+         }
       },
       "photoVal":{
          "selfie":{
